@@ -61,7 +61,7 @@ while i<100:
         sum+=i
     i+=1
 print(sum)
-# 方式2完成作业5: 打印1-2+3-4+。。。＋99 总和
+#方式2完成作业5: 打印1-2+3-4+。。。＋99 总和
 sum = 0
 for i in range(1, 100):
     if i % 2 == 0:
@@ -71,5 +71,14 @@ for i in range(1, 100):
 
 print(sum)
 print("---------->>> 作业5已完成")
+
+# 占位符
+name = input("请输入姓名：")
+age = input("请输入年龄：")
+hobby = input("请输入爱好：")
+msg = "我的名字是%s,我的年龄是%s,我的爱好是%s" %(name,age,hobby)
+print(msg)
+
+
 
 
