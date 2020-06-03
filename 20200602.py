@@ -72,11 +72,11 @@ for i in range(1, 100):
 print(sum)
 print("---------->>> 作业5已完成")
 
-# 占位符
+# 占位符只有格式化时才有意义，不想让％表示为格式化时候，再加上一个％
 name = input("请输入姓名：")
 age = input("请输入年龄：")
 hobby = input("请输入爱好：")
-msg = "我的名字是%s,我的年龄是%s,我的爱好是%s" %(name,age,hobby)
+msg = "我的名字是%s,我的年龄是%s,我的爱好是%s，学习进度是80%%" %(name,age,hobby)
 print(msg)
 
 
